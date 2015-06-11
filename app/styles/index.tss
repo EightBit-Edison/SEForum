@@ -1,0 +1,264 @@
+".container": {
+	backgroundColor:"#000"
+}
+//Окно входа
+"#logincontainer":{
+	width:"350",
+	height:"370"
+}
+"#loginframe":{
+ backgroundImage:"/img/loginform.jpg"	
+}
+"#loginbox": {
+	height:"40",
+	top:"51%",
+	left:"38%",
+	width:"145",
+}
+
+"#passwordbox": {
+	height:"40",
+	top:"63%",
+	left:"38%",
+	width:"145",
+}
+"#unloginline":{
+	bottom:"0",
+	left:"0",
+	width:"100%",
+	height:"1",
+	backgroundColor:"#fff"
+}
+"#unpassline":{
+	bottom:"0",
+	left:"0",
+	width:"100%",
+	height:"1",
+	backgroundColor:"#fff"
+}
+"#error":{
+	title:"Ошибка"
+}
+
+//Основная программа
+"#mainframe": {
+	backgroundColor:"#ffffff",
+	visible:false,
+	top:"0",
+	height:"100%",
+	width:"100%",
+	
+}
+"#header": {
+	backgroundColor:"#388E3C",
+	top:"0",
+	width:"100%",
+	height:"145",
+	zIndex:"3"
+	
+}
+"#mainlayer": {
+	backgroundColor:"#fff", 
+	scrollType:"vertical", 
+	focusable:"true", 
+	contentWidth:"80%", 
+	layout:"vertical", 
+	zIndex:"1000",
+	visible:"true",
+	top: 50,
+	width:"100%"
+}
+
+"#": {
+	image:"/img/menu.png",
+	left:"10",
+	top:"25",
+	width:"20"
+}
+
+"#helpbutt":{
+	font:{
+		fontSize:19
+	},
+	color:"#fff"
+}
+
+"#menubutt":{
+	font:{
+		fontSize:19
+	},
+	color:"#fff"
+}
+
+"#sidebar": {
+	backgroundColor:"#E0E0E0",
+	top:"0",
+	left:"0",
+	width:"250",
+	height:"100%"
+}
+
+"#item1":{
+    top:"140",
+    left:"40",  
+    height:"40"
+}
+"#item2":{
+    top:"180", 
+    left:"40",  
+    height:"40"	
+}
+"#item4":{
+    top:"220", 
+    left:"40",  
+    height:"40"	
+}
+"#item5":{
+    top:"260",
+    left:"40",   
+    height:"40"	
+}
+"#nsbr":{
+	color:"#E0E0E0", 
+	
+	bottom:"10",
+	font:{
+		fontSize:16
+	}
+}
+
+"#ic1":{
+	top:"150",
+	left:"10",
+}
+"#ic2":{
+	top:"190",
+	left:"10",
+}
+"#ic4":{
+	top:"230",
+	left:"10",
+}
+"#ic5":{
+	top:"270",
+	left:"10",
+}
+
+"#mfloading":{
+	
+}
+"#group": {
+	color:"#ffffff",
+	top:"90",
+	opacity:"0.7",
+	font: {
+		fontSize:16
+	}
+}
+"#headtext":{
+	top:"10",
+	color:"#fff",
+	zIndex:100500,
+	height:50
+}
+
+"#settings": {
+	zIntex:"2000",
+	backgroundColor:"#1E2E40",
+	top:"50",
+	left:"0",
+	width:"100%",
+	height:"100%",
+	visible:"false"
+}
+"#setname":	{
+	color:"#fff",
+	top:"40",
+	font: {
+		fontSize:30
+	}	
+}
+"#ist":{
+	color:"#fff",
+	font:{
+		fontSize:20
+	}
+}
+"#m_news":{
+	height:"200",
+	width:"250",
+	top:"450"
+}
+"#abl":{
+	font: {
+		fontSize:40
+	}
+}
+".podr":{
+	font: {
+		fontSize:40
+	}
+}
+".icon": {
+	color:"#E0E0E0",
+	font: {
+		fontSize:30
+	}
+}
+".spk-desc":{
+	font:{
+		fontSize:10
+	}
+}
+".program-desc":{
+	font:{
+		fontSize:12
+	}
+}
+"#helper":{
+	 top:"10",
+	 right:"10", 
+	 width:"20", 
+	 height:"50", 
+	 zIndex:"100500", 
+	 visible:"false" 
+}
+"#help":{
+	title:"Помощь"
+}
+"#helpl":{
+	top:"0"
+}
+"#exit":{
+	 top:"65", 
+	 width:"90%", 
+	 left:"65%", 
+	 height:"40" 
+}
+"#lexit":{
+	color:"#fff",  
+	left:"20" 
+}
+"#ab":{
+	title:"О программе"
+}
+"#l1ab":{
+	top:"0"
+}
+"#l2ab":{
+	top:"20"
+}
+"#swiper":{
+	 top:"0", 
+	 left:"0", 
+	 width:"50", 
+	 height:"100%", 
+	 zIndex:"100500"  
+}
+"#menuButtView":{
+	 top:"10", 
+	 left:"0",
+	 width:"50",
+	 height:"50",
+	 zIndex:"100600"   
+}

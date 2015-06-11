@@ -1,0 +1,79 @@
+<Alloy>
+
+	<Window class="container" id="loginform">
+ 
+
+<ScrollView id="sidebar" scrollType="vertical" contentWidth="250" >
+		    <ImageView id="seflogo" image="/img/seflogo.png" top="20" left="0" height="80" ></ImageView>
+			<Label id="name"></Label>
+			<View id="list">
+				<View backgroundColor="#388E3C" width="110" height="95" top="100" left="10" onClick="programButt">
+					<Label class="icon" icon = "fa-calendar" onClick="programButt" ></Label>
+					<Label id="nsbr" onClick="programButt">Программа</Label>
+				</View>
+				<View backgroundColor="#388E3C" width="110" height="95" top="100" left="130" onClick="lenta" >
+					<Label class="icon" icon = "fa-newspaper-o" onClick="lenta" ></Label>
+					<Label id="nsbr" onClick="lenta">Новости</Label>
+				</View>
+			<View backgroundColor="#388E3C" width="110" height="95" top="205" left="10" onClick="speakerButt" >
+					<Label class="icon" icon = "fa-users" onClick="speakerButt" ></Label>
+					<Label id="nsbr" onClick="speakerButt">Спикеры</Label>
+				</View>
+				<View backgroundColor="#388E3C" width="110" height="95" top="205" left="130" onClick="proButt">
+					<Label class="icon" icon = "fa-puzzle-piece" onClick="proButt" ></Label>
+					<Label id="nsbr" onClick="proButt" >Проекты</Label>
+				</View>
+				<View backgroundColor="#388E3C" width="110" height="95" top="310" left="10" onClick="plo">
+					<Label class="icon" icon = "fa-building-o" onClick="plo"></Label>
+					<Label id="nsbr" onClick="plo">Площадка</Label>
+				</View>
+				<View backgroundColor="#388E3C" width="110" height="95" top="310" left="130" onClick="fair">
+					<Label class="icon" icon = "fa-cubes" onClick="fair" ></Label>
+					<Label id="nsbr" onClick="fair">Ярмарка</Label>
+				</View>
+			<View backgroundColor="#388E3C" width="110" height="95" top="415" left="10" onClick="forum">
+					<Label class="icon" icon = "fa-info-circle" onClick="forum" ></Label>
+					<Label id="nsbr" onClick="forum">О форуме</Label>
+				</View>
+				<View backgroundColor="#388E3C" width="110" height="95" top="415" left="130" onClick="city">
+					<Label class="icon" icon = "fa-plane" onClick="city"></Label>
+					<Label id="nsbr" onClick="city">О регионе</Label>
+				</View>
+			<View backgroundColor="#388E3C" width="110" height="95" top="520" left="10" onClick="partnersButt">
+					<Label class="icon" icon = "fa-empire" onClick="partnersButt" ></Label>
+					<Label id="nsbr" onClick="partnersButt">Партнеры</Label>
+				</View>
+				<View backgroundColor="#388E3C" width="110" height="95" top="520" left="130" onClick="aboutButt">
+					<Label class="icon" icon = "fa-book" onClick="aboutButt"></Label>
+					<Label id="nsbr" onClick="aboutButt">О программе</Label>
+				</View>
+			
+			
+			</View>
+</ScrollView>
+
+
+
+		 
+<View id="mainframe">
+
+		<ScrollView id="mainlayer">
+			
+		</ScrollView>
+		<View id="header" >
+			<Label id="headtext" >Лента новостей</Label>
+		</View>
+		
+				<View id="swiper">
+							<View id="menuButtView" onClick="openMenu" >
+					<Label id="menubutt" class="q-icon" icon = "fa-bars"></Label>
+				</View>
+		</View> 
+				
+</View>
+
+	<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+	</Window>
+	
+	
+</Alloy>
